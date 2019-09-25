@@ -1,20 +1,16 @@
 import React, { useReducer } from 'react';
 import { FieldsContext } from '../../../context/FieldsContext';
 import { fieldsReducer } from '../../../reducers';
-import InputGroup from '../../molecules/InputGroup';
+import Form from '../../molecules/Form';
 
 const App = () => {
   const [{ fields }, dispatch] = useReducer(fieldsReducer, { fields: [] });
-
-  // const handleChange = e => {
-  //   dispatch({ type: 'ADD_DATA', payload: e.target.value });
-  // };
 
   return (
     <div className="app">
       {/* <Header /> */}
       <FieldsContext.Provider value={{ fields, dispatch }}>
-        <InputGroup />
+        <Form />
       </FieldsContext.Provider>
       {/* <Footer /> */}
     </div>

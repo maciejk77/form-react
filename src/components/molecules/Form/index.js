@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useContext } from 'react';
-import { FieldsContext } from '../../../../src/context/FieldsContext';
+import { FieldsContext } from '../../../context/FieldsContext';
 import { questions } from '../../../../src/config.json';
 import { printToConsole } from '../../../utils';
 
@@ -7,7 +7,7 @@ import Text from '../../atoms/Text';
 import Fields from '../Fields';
 import './styles.scss';
 
-const InputGroup = () => {
+const Form = () => {
   const [data, setData] = useState();
   const { fields } = useContext(FieldsContext);
 
@@ -43,4 +43,4 @@ const InputGroup = () => {
   );
 };
 
-export default InputGroup;
+export default Form;
