@@ -6,6 +6,10 @@ import InputGroup from '../../molecules/InputGroup';
 const App = () => {
   const [{ fields }, dispatch] = useReducer(fieldsReducer, { fields: [] });
 
+  // const handleChange = e => {
+  //   dispatch({ type: 'ADD_DATA', payload: e.target.value });
+  // };
+
   return (
     <div>
       {/* <Header /> */}

@@ -24,17 +24,12 @@ const InputGroup = () => {
 
   return (
     <div>
-      {data.map((q, i) => {
-        // console.log(q.fields);
-        return (
-          <div className="input-group" key={i}>
-            <h3>
-              <Text>{q.title}</Text>
-            </h3>
-            <Fields key={i} fields={q.fields} type={q.type} />
-          </div>
-        );
-      })}
+      {data.map((q, i) => (
+        <div className="input-group" key={i}>
+          <Text>{q.title}</Text>
+          <Fields key={i} fields={q.fields} type={q.type} />
+        </div>
+      ))}
     </div>
   );
 };

@@ -15,7 +15,7 @@ const Fields = ({ fields }) =>
           <Text>{f.label}</Text>
         </Input>
       ) : (
-        <Select options={f.options}>
+        <Select options={f.options} name={f.name}>
           <Text>{f.label}</Text>
         </Select>
       )}
