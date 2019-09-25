@@ -11,7 +11,7 @@ const App = () => {
   // };
 
   return (
-    <div>
+    <div className="app">
       {/* <Header /> */}
       <FieldsContext.Provider value={{ fields, dispatch }}>
         <InputGroup />

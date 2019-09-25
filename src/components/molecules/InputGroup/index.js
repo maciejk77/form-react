@@ -31,14 +31,14 @@ const InputGroup = () => {
   };
 
   return (
-    <form onSubmit={handleSubmit}>
+    <form className="form " onSubmit={handleSubmit}>
       {data.map((q, i) => (
-        <div className="input-group" key={i}>
+        <div className="form-group" key={i}>
           <Text>{q.title}</Text>
           <Fields key={i} fields={q.fields} type={q.type} />
         </div>
       ))}
-      <input className="input-group__button" type="submit" value="SUBMIT" />
+      <input className="form-group__button" type="submit" value="SUBMIT" />
     </form>
   );
 };
