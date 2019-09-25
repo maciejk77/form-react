@@ -5,7 +5,7 @@ export const fieldsReducer = (state = [], { type, payload }) => {
     : [...state.fields, payload];
 
   // data source for output to the console
-  console.log(collection);
+  // console.log(collection);
 
   switch (type) {
     case 'ADD_DATA':
