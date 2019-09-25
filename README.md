@@ -24,6 +24,7 @@
 ## Comments (to be completed)
 
 - output to have keys e.g. firstName not first_name
+- e.preventDefault, clearing fields on submission, validation/trimming data and spaces
 
 ## Screenshots
 
