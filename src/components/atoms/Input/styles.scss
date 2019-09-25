@@ -1,0 +1,10 @@
+.input {
+  display: flex;
+  justify-content: space-between;
+
+  &__field {
+    border: none;
+    outline: none;
+    width: 12rem;
+  }
+}
