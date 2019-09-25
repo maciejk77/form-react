@@ -25,6 +25,7 @@
 
 - output to have keys e.g. firstName not first_name
 - e.preventDefault, clearing fields on submission, validation/trimming data and spaces
+- @import variables, use base_styles.scss, removing repetition, CSS in A-Z order
 
 ## Screenshots
 
