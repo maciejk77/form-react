@@ -29,4 +29,4 @@
 
 ## Screenshots
 
-![Screenshot](src/assets/screenshot-1.png)
+![Screenshot](src/assets/screenshot-2.png)
